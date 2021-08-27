@@ -11,3 +11,28 @@
   padding: 0 15px;
   margin: 0 auto;
 }
+
+.main-container .text-box .title {
+  font-size: 50px;
+  font-family: var(--Philosopher);
+  font-weight: 700;
+}
+
+.main-container .text-box .desc {
+  font-size: 20px;
+  font-family: var(--Hind);
+  font-weight: 500;
+  color: #9a9a9a;
+}
+
+.main-container .text-box .desc-text {
+  font-size: 16px;
+  font-family: var(--Hind);
+  font-weight: 300;
+  color: #b7b7b7;
+}
+
+.main-container .more-link {
+  font-size: 16px;
+  font-family: var(--Philosopher);
+}
