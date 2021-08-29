@@ -1299,7 +1299,7 @@
   .main .icon-list-contents .txt {
     font-size: 16px;
   }
-  
+
   .main .icon-list-contents .list {
     display: flex;
     flex-wrap: wrap;
@@ -1314,4 +1314,32 @@
 
 @media all and (min-width: 0px) and (max-width: 319px) {
 
+  body {
+    position: relative;
+    height: 100vh;
+    background-color: #b7b7b7;
+  }
+
+  .wrap::after {
+    content: '지원되지 않는 디바이스 입니다.';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    clear: both;
+    white-space: nowrap;
+    font-weight: 700;
+  }
+
+  header.header {
+    display: none;
+  }
+  
+  main.main {
+    display: none;
+  }
+  
+  footer.footer {
+    display: none;
+  }
 }
