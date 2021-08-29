@@ -333,6 +333,54 @@
   border-radius: 4px;
 }
 
+.main .icon-list {}
+.main .icon-list .inner {}
+.main .icon-list-contents{}
+.main .icon-list-contents .list {
+  display: flex;
+}
+.main .icon-list-contents .item {
+  width: 25%;
+  font-size: 0;
+}
+.main .icon-list-contents .icon {
+  background: url('../image/home-icons.png') no-repeat 0 0 / auto auto;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.main .icon-list-contents .item:nth-child(1) .icon {
+  background-position: 0 -70px;
+}
+.main .icon-list-contents .item:nth-child(2) .icon {
+  background-position: -70px -70px;
+}
+.main .icon-list-contents .item:nth-child(3) .icon {
+  background-position: -140px -70px;
+}
+.main .icon-list-contents .item:nth-child(4) .icon {
+  background-position: -210px -70px;
+}
+.main .icon-list-contents .text-box {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+.main .icon-list-contents .tit {
+  font-size: 35px;
+  font-weight: 700;
+  font-family: var(--Philosopher);
+  margin-bottom: 20px;
+  line-height: 1;
+  display: block;
+}
+.main .icon-list-contents .txt {
+  font-size: 20px;
+  font-family: var(--Hind);
+  color: #b7b7b7;
+  line-height: 1;
+}
 @media all and (min-width: 1281px) and (max-width: 1320px) {
 
   .main .slide-contents .title {
@@ -519,7 +567,16 @@
   .main .people-contents .more-link {
     margin: 0 auto;
   }
+  .main .icon-list-contents .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
+  .main .icon-list-contents .item {
+    width: 50%;
+    padding: 40px 60px;
+    box-sizing: border-box;
+  }
 }
 
 @media all and (min-width: 768px) and (max-width: 1023px) {
@@ -723,6 +780,23 @@
 
   .main .people-contents .more-link {
     margin: 0 auto;
+  }
+
+  .main .icon-list-contents .tit {
+    font-size: 28px;
+  }
+  .main .icon-list-contents .txt {
+    font-size: 16px;
+  }
+  .main .icon-list-contents .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main .icon-list-contents .item {
+    width: 50%;
+    padding: 40px 60px;
+    box-sizing: border-box;
   }
 }
 
@@ -950,6 +1024,36 @@
     margin: 0 auto;
   }
 
+  .main .icon-list-contents .tit {
+    font-size: 28px;
+  }
+  .main .icon-list-contents .txt {
+    font-size: 16px;
+  }
+  .main .icon-list-contents .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main .icon-list-contents .item {
+    width: 50%;
+    padding: 30px 0;
+    box-sizing: border-box;
+  }
+
+  .main .icon-list-contents .icon {
+    display: block;
+    margin-bottom: 12px;
+  }
+
+  .main .icon-list-contents .text-box {
+    display: block;
+    margin-left: 8px;
+  }
+
+  .main .icon-list-contents .tit {
+    margin-bottom: 12px;
+  }
 }
 
 @media all and (min-width: 320px) and (max-width: 359px) {
@@ -1174,6 +1278,22 @@
 
   .main .people-contents .more-link {
     margin: 0 auto;
+  }
+  .main .icon-list-contents .tit {
+    font-size: 28px;
+  }
+  .main .icon-list-contents .txt {
+    font-size: 16px;
+  }
+  .main .icon-list-contents .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main .icon-list-contents .item {
+    width: 100%;
+    padding: 30px 0;
+    box-sizing: border-box;
   }
 }
 
