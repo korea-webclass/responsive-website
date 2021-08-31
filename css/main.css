@@ -386,6 +386,113 @@
   line-height: 1;
 }
 
+.main .figure {}
+
+.main .figure .inner {
+  padding: 80px 15px 36px;
+}
+
+.main .figure-contents {}
+
+.main .figure-contents .text-box {
+  margin-bottom: 88px;
+}
+
+.main .figure-contents .title {
+  line-height: 55px;
+}
+
+.main .figure-list {}
+
+.main .figure-list .list {
+  display: flex;
+}
+
+.main .figure-list .item {
+  width: 33.33%
+}
+
+.main .figure-list .phto {
+  margin: 0 auto;  
+  width: 100%;
+  padding: 0 24px;
+  box-sizing: border-box;
+
+}
+
+.main .figure-list .txt-box {
+  text-align: center;
+  margin-top: 48px;
+}
+
+.main .figure-list .tit {
+  display: block;
+  font-size: 28px;
+  font-family: var(--Philosopher);
+  font-weight: 700;
+  line-height: 1;
+  margin-bottom: 24px;
+}
+
+.main .figure-list .txt {
+  font-size: 20px;
+  font-family: var(--Hind);
+  
+  line-height: 1;
+}
+
+.main .figure-list .item:nth-child(1) .txt {
+  color: #ff6e69;
+}
+
+.main .figure-list .item:nth-child(2) .txt {
+  color: #7ac043;
+}
+
+.main .figure-list .item:nth-child(3) .txt {
+  color: #4776e6;
+}
+
+.main .figure-list .figure-sns {}
+
+.main .figure-list .icon {}
+
+.main .figure-company-icon {
+  display: flex;
+  margin-top: 84px;
+}
+.main .figure-company-icon .item {
+  width: 16.66%;
+  text-align: center;
+}
+.main .figure-company-icon .icon {
+  background: url('../image/home-icons.png');
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 136px;
+  height: 46px;
+  display: inline-block;
+  vertical-align: top;
+}
+.main .figure-company-icon .item:nth-child(1) .icon {
+  background-position: 0px -162px;
+}
+.main .figure-company-icon .item:nth-child(2) .icon {
+  background-position: -136px -162px;
+}
+.main .figure-company-icon .item:nth-child(3) .icon {
+  background-position: 0px -208px;
+}
+.main .figure-company-icon .item:nth-child(4) .icon {
+  background-position: -136px -208px;
+}
+.main .figure-company-icon .item:nth-child(5) .icon {
+  background-position: 0px -254px;
+}
+.main .figure-company-icon .item:nth-child(6) .icon {
+  background-position: -136px -254px;
+}
+
 @media all and (min-width: 1281px) and (max-width: 1320px) {
 
   .main .slide-contents .title {
@@ -582,6 +689,78 @@
     width: 50%;
     padding: 40px 60px;
     box-sizing: border-box;
+  }
+
+  .main .figure .inner {
+    padding: 80px 15px 36px;
+  }
+
+  .main .figure-contents .text-box {
+    margin-bottom: 88px;
+  }
+
+  .main .figure-contents .title {
+    line-height: 55px;
+    font-size: 48px;
+  }
+
+  .main .figure-list .list {
+    display: flex;
+  }
+
+  .main .figure-list .item {
+    width: 33.33%
+  }
+
+  .main .figure-list .phto {
+    margin: 0 auto;  
+    width: 100%;
+    padding: 0 24px;
+    box-sizing: border-box;
+  }
+
+  .main .figure-list .txt-box {
+    text-align: center;
+    margin-top: 48px;
+  }
+
+  .main .figure-list .tit {
+    display: block;
+    font-size: 28px;
+    font-family: var(--Philosopher);
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 24px;
+  }
+
+  .main .figure-list .txt {
+    font-size: 20px;
+    font-family: var(--Hind);
+    line-height: 1;
+  }
+
+  .main .figure-list .item:nth-child(1) .txt {
+    color: #ff6e69;
+  }
+
+  .main .figure-list .item:nth-child(2) .txt {
+    color: #7ac043;
+  }
+
+  .main .figure-list .item:nth-child(3) .txt {
+    color: #4776e6;
+  }
+
+  .main .figure-company-icon {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 84px;
+  }
+
+  .main .figure-company-icon .item {
+    width: 33.33%;
+    margin-bottom: 40px;
+    text-align: center;
   }
 }
 
@@ -805,6 +984,80 @@
     width: 50%;
     padding: 40px 60px;
     box-sizing: border-box;
+  }
+
+  .main .figure .inner {
+    padding: 80px 15px 36px;
+  }
+
+  .main .figure-contents .text-box {
+    margin-bottom: 88px;
+  }
+
+  .main .figure-contents .title {
+    line-height: 55px;
+    font-size: 36px;
+  }
+
+  .main .figure-list .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main .figure-list .item {
+    width: 50%;
+    padding: 20px 0;
+  }
+
+  .main .figure-list .phto {
+    margin: 0 auto;  
+    width: 70%;
+    padding: 0 24px;
+    box-sizing: border-box;
+  }
+
+  .main .figure-list .txt-box {
+    text-align: center;
+    margin-top: 48px;
+  }
+
+  .main .figure-list .tit {
+    display: block;
+    font-size: 24px;
+    font-family: var(--Philosopher);
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 24px;
+  }
+
+  .main .figure-list .txt {
+    font-size: 16px;
+    font-family: var(--Hind);
+    line-height: 1;
+  }
+
+  .main .figure-list .item:nth-child(1) .txt {
+    color: #ff6e69;
+  }
+
+  .main .figure-list .item:nth-child(2) .txt {
+    color: #7ac043;
+  }
+
+  .main .figure-list .item:nth-child(3) .txt {
+    color: #4776e6;
+  }
+
+  .main .figure-company-icon {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 84px;
+  }
+
+  .main .figure-company-icon .item {
+    width: 33.33%;
+    margin-bottom: 40px;
+    text-align: center;
   }
 }
 
@@ -1065,6 +1318,36 @@
   .main .icon-list-contents .tit {
     margin-bottom: 12px;
   }
+
+  .main .figure-contents .title {
+    font-size: 32px;
+  }
+
+  .main .figure-list .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main .figure-list .item {
+    width: 50%;
+    padding: 20px 0;
+  }
+
+  .main .figure-list .phto {
+    width: 100%;
+  }
+
+  .main .figure-company-icon {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 84px;
+  }
+
+  .main .figure-company-icon .item {
+    width: 50%;
+    margin-bottom: 40px;
+    text-align: center;
+  }
 }
 
 @media all and (min-width: 320px) and (max-width: 359px) {
@@ -1309,6 +1592,37 @@
     width: 100%;
     padding: 30px 0;
     box-sizing: border-box;
+  }
+
+  .main .figure-contents .title {
+    font-size: 28px;
+  }
+
+  .main .figure-list .list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .main .figure-list .item {
+    width: 50%;
+    padding: 20px 0;
+  }
+
+  .main .figure-list .phto {
+    width: 100%;
+  }
+
+  .main .figure-company-icon {
+    /* display: flex; */
+    display: none;
+    flex-wrap: wrap;
+    margin-top: 84px;
+  }
+
+  .main .figure-company-icon .item {
+    width: 50%;
+    margin-bottom: 40px;
+    text-align: center;
   }
 }
 
